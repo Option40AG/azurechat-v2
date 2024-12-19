@@ -18,9 +18,12 @@ export const ChatHome: FC<ChatPersonaProps> = (props) => {
   return (
     <ScrollArea className="flex-1">
       <main className="flex flex-1 flex-col gap-6 pb-6">
-        <div className="w-full bg-yellow-300 text-black text-center flex items-center justify-center" style={{ height: "66px" }}>
+      <div className="w-full bg-yellow-300 text-black text-center flex flex-col items-center justify-center" style={{ height: "66px" }}>
           <span className="text-lg">
             This application will be decommissioned on January 8th, 2025.
+          </span>
+          <span className="text-lg">
+            Move over to the Microsoft Copilot <a href="https://copilot.cloud.microsoft/" className="text-blue-500 underline">HERE</a>.
           </span>
         </div>
         <Hero
